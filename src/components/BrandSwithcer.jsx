@@ -31,6 +31,7 @@ export default BrandSwitcher;
 
 const BrandContainer = styled.div`
   width: 100%;
+  height: 44px;
   background-color: #e5e5e5;
   overflow: hidden;
   display: flex;
@@ -54,7 +55,7 @@ const BrandsWrapper = styled.div`
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-  padding: 0px 10px;
+  padding: 40px 40px;
   :hover {
     background-color: white;
   }
