@@ -125,7 +125,7 @@ const DropDownHover = ({ childrenData }) => {
                
                  }}>
                     {childrenData?.children?.map((el, index) => (
-                        <div key={index} >
+                        <div key={index} style={{cursor:'pointer'}} >
                             <ul>
                                 <li>{el.name}</li>
                                 <ul>
@@ -140,7 +140,7 @@ const DropDownHover = ({ childrenData }) => {
                 {childrenData?.image &&  <div style={{border:'1px solid #333',margin:'50px',marginLeft:'150px'}}></div>}
                
                 {childrenData?.image &&
-                    <div className="imagecontainer">
+                    <div className="imagecontainer" style={{cursor:'pointer'}}>
                         <img src={childrenData?.image?.[0]} alt="" />
                         <h5>{childrenData?.name}</h5>
                     </div>
